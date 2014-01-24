@@ -39,4 +39,6 @@ The lock is acquired before the block is executed and always released once the b
 '''
 
 
-
+with open("./App_Data/sample.txt") as f:
+    data = f.read()
+    print(data)
