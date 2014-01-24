@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b2d9b313-b62d-4b0e-90d7-33535744f7f7</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>ex37_global.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>LearnPythonHardWay</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ex17_morefiles.py" />
+    <Compile Include="ex19_functionAndFile.py" />
+    <Compile Include="ex18_functions.py" />
+    <Compile Include="ex26_fixCode.py" />
+    <Compile Include="ex32_loopsAndListssts.py" />
+    <Compile Include="ex37_with.py" />
+    <Compile Include="ex37_lamdaFunc.py" />
+    <Compile Include="ex37_global.py" />
+    <Compile Include="ex37_subprocess.py" />
+    <Compile Include="Exercise16_ReadingWritingFile.py" />
+    <Compile Include="Exercise15_ReadingFile.py" />
+    <Compile Include="Exercise13_ImportModules.py" />
+    <Compile Include="Exercise12_PromptingPpl.py" />
+    <Compile Include="Exercise11_AskQuestion.py" />
+    <Compile Include="Exercise9_PrintingPrintingPrinting.py" />
+    <Compile Include="Exercise8_MorePrintingWithFormatters.py" />
+    <Compile Include="Exercise7_MorePrinting.py" />
+    <Compile Include="Exercise1_FirstProgram.py" />
+    <Compile Include="Exercise3_Math.py" />
+    <Compile Include="Exercise2_Comments.py" />
+    <Compile Include="Exercise5_MoreVariables.py" />
+    <Compile Include="Exercise4_Variables.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\sample.txt" />
+    <Content Include="App_Data\sample2.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
